@@ -14,16 +14,9 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QGraphicsView" name="graphicsView">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>80</y>
-      <width>491</width>
-      <height>471</height>
-     </rect>
-    </property>
-   </widget>
+   <property name="cursor">
+    <cursorShape>CrossCursor</cursorShape>
+   </property>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

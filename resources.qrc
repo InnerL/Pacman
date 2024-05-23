@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sprites/pacman.png</file>
+        <file>pacman.png</file>
+        <file>puntos.png</file>
+    </qresource>
+</RCC>

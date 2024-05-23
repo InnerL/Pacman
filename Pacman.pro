@@ -13,13 +13,15 @@ SOURCES += \
     ghost.cpp \
     main.cpp \
     mainwindow.cpp \
-    pacman.cpp
+    pacman.cpp \
+    point.cpp
 
 HEADERS += \
     gameboard.h \
     ghost.h \
     mainwindow.h \
-    pacman.h
+    pacman.h \
+    point.h
 
 FORMS += \
     mainwindow.ui
@@ -28,3 +30,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    resources.qrc
